@@ -10,5 +10,9 @@ public class Main {
        Main.class 파일 생성된것 확인
 
        java 명령어를 통해 class 파일을 실행*/
+
+    // intellij 단축키(윈도우)
+    // 파일 실행 shift + F10
+    // 파일 디버그 shift + F9  다음 포인트 F9 중지 control + F12
 }
 
