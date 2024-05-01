@@ -1,6 +1,6 @@
 package variable_operator.charater;
 
-public class var_op {
+public class VarOpp {
     public static void main(String[] args) {
         // 문자 자료형 character 2byte 단따옴표 사용
         // 각 문자는 유니코드에 상응하는 정수를 가진다.

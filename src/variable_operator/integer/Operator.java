@@ -1,6 +1,6 @@
 package variable_operator.integer;
 
-public class operator {
+public class Operator {
     public static void main(String[] args) {
         // 1. 이항 연산자 + - * / % 부수효과를 일으키지 않는다.
         int a = 1 + 2;

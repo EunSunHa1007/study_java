@@ -1,6 +1,6 @@
 package variable_operator.string;
 
-public class variable {
+public class Variable {
     public static void main(String[] args) {
         //문자열 자료형
         // 문자열 String 은 참조 자료형이지만 특별히 원시값과 유사하게 사용될 수 있다.

@@ -1,6 +1,6 @@
 package variable_operator.real_num;
 
-public class operator {
+public class Operator {
     public static void main(String[] args) {
         long lng1 = 123;
 

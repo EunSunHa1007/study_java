@@ -1,6 +1,6 @@
 package variable_operator.integer;
 
-public class variable {
+public class Variable {
     public static void main(String[] args) {
         /* 정수 자료형
         byte 1바이트(8bit)

@@ -1,6 +1,6 @@
 package variable_operator.real_num;
 
-public class variable {
+public class Variable {
     public static void main(String[] args) {
         //실수자료형들
         // float 4byte : 뒤에 f 또는 F 붙여 표현, double을 담을 수 없음.
