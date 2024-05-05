@@ -20,7 +20,7 @@ public class Operator {
         // 복합 대입 연산자와 단항 연산자
         float fl5 = 123.45F;
         fl5 += 6.78;
-        fl5++; // 🔴
+        fl5++;
         fl5++;
         fl5--;
 
@@ -35,15 +35,15 @@ public class Operator {
         double dbl2 = 7.89;
 
         //  💡 정수/실수간, 다른 숫자 자료형간 사용 가능
-        boolean bool0 = 123 == 123F;
+        boolean bool0 = 123 == 123F;//false
 
-        boolean bool1 = int1 == flt1;
-        boolean bool2 = flt1 == dbl1;
-        boolean bool3 = int1 == dbl2;
+        boolean bool1 = int1 == flt1;//true
+        boolean bool2 = flt1 == dbl1;//true
+        boolean bool3 = int1 == dbl2;//false
 
-        boolean bool4 = int1 > dbl2;
-        boolean bool5 = flt1 >= dbl2;
-        boolean bool6 = dbl1 < dbl2;
+        boolean bool4 = int1 > dbl2;//false
+        boolean bool5 = flt1 >= dbl2;//false
+        boolean bool6 = dbl1 < dbl2;//true
 
     }
 }
