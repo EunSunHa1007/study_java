@@ -1,7 +1,19 @@
-package variable_operator.integer;
+package variable_operator;
 
-public class Operator {
+public class Integer {
     public static void main(String[] args) {
+        /* 정수 자료형
+        byte 1바이트(8bit)
+        short 2바이트
+        int 4바이트
+        long 8바이트 */
+
+        byte _1b_byte = 1;
+        short _2b_short = 2;
+        int _4b_int = 3; // 일반적으로 널리 사용
+        long _8b_long = 4;
+
+
         // 1. 이항 연산자 + - * / % 부수효과를 일으키지 않는다.
         int a = 1 + 2;
         int b = a - 1;
@@ -49,7 +61,7 @@ public class Operator {
         int int2 = int1++; // int2 = 3 int1 = 3
         int int3 = ++int1; // int1 = 4 + 1 = 5  int 3 = 5
         int int4 = -(int2-- * --int3); // int2 = 3 * int 3 = 4 -> 12 int4 = -12
-                                       // int2 = 2
+        // int2 = 2
         //4. 비교연산자 == != > >= < <=
     }
 }

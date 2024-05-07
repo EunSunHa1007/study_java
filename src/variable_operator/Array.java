@@ -1,6 +1,6 @@
-package variable_operator.array;
+package variable_operator;
 
-public class VarOpp {
+public class Array {
     public static void main(String[] args) {
         //  💡 선언
         char[] charArrau1 = new char[3];
@@ -23,7 +23,7 @@ public class VarOpp {
         boolean bool2 = false;
         bool2 = bool1;
         bool1 = false; // bool2에 bool1(true)을 대입한 상태에서 bool1값이 false로 변경될 때 bool2값이 true1의 변경된 값을 따라가지 않는다.
-                       // bool1 : false  bool2 : true
+        // bool1 : false  bool2 : true
 
         //  ⭐ 참조 자료형은 값 주머니의 주소를 복사
         //  두 변수가 같은 주머니를 가리키게 됨
@@ -32,7 +32,7 @@ public class VarOpp {
         boolean[] boolAry2 = { false, false, false };
         boolAry2 = boolAry1;
         boolAry1[0] = false; // boolAry2에 boolAry1을 대입한 상태에서 boolAry값이 변경될 때 bool2에도 변경된 값이 반영된다.
-                             // boolAry1 [false, true, true]  boolAry2 [false, true, true]
+        // boolAry1 [false, true, true]  boolAry2 [false, true, true]
 
 
         //  ⭐️ 문자열은 객체(참조형)지만 원시형처럼 다뤄짐
@@ -53,5 +53,4 @@ public class VarOpp {
         String join1 = String.join(", ", strings);
         String join2 = String.join("-", strings);
     }
-
 }

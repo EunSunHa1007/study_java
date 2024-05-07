@@ -1,7 +1,16 @@
-package variable_operator.real_num;
+package variable_operator;
 
-public class Operator {
+public class RealNum {
     public static void main(String[] args) {
+        //실수자료형들
+        // float 4byte : 뒤에 f 또는 F 붙여 표현, double을 담을 수 없음.
+        // double 8byte : float 보다 범위 넓고 정밀하게 표현 가능
+
+        double a = 0.1, b = 0.2;
+
+        //  ⚠️ 오차가 생김 -- 부동소수점
+        double c = a + b;
+
         long lng1 = 123;
 
         //  정수를 대입할 시 묵시적 변환
@@ -18,11 +27,11 @@ public class Operator {
 
         //-----------------------------------------------------------//
         // 복합 대입 연산자와 단항 연산자
-        float fl5 = 123.45F;
-        fl5 += 6.78;
-        fl5++;
-        fl5++;
-        fl5--;
+        float flt5 = 123.45F;
+        flt5 += 6.78;
+        flt5++;
+        flt5++;
+        flt5--;
 
         // float 끼리 연산은 float 반환
         // float과 double의 연산은 double 반환
@@ -44,6 +53,5 @@ public class Operator {
         boolean bool4 = int1 > dbl2;//false
         boolean bool5 = flt1 >= dbl2;//false
         boolean bool6 = dbl1 < dbl2;//true
-
     }
 }
